@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudo Element Example</title>
+  <style>
+    p::first-line {
+      text-transform: uppercase;
+      color: teal;
+      font-weight: bold;
+    }
+
+    h1::before {
+      content: "love ";
+      color: orange;
+    }
+    h1::after{
+      content: " hi";
+      color: blue;
+      
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Page</h1>
+  <p>
+    this is a paragraph to demonstrate how the first line gets styled differently using the
+    `::first-line` pseudo-element in CSS. Pretty cool, right?
+  </p>
+</body>
+</html>
