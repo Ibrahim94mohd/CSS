@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shadows and outlines in html</title>
+    <style>
+      .container {
+        height: 100px;
+        width: 500px;
+        border: 5px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 5px 10px 10px 5px blue;
+      }
+      .text-container {
+        width: 50vw;
+        margin: 100px;
+        text-shadow: 5px 5px 3px yellow;
+      }
+      .outline {
+        width: 50vw;
+        outline: 2px solid black;
+        border: 2px solid green;
+        outline-offset: 20px;
+        border-radius: 5px;
+        margin: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>I am a box</p>
+    </div>
+    <p class="text-container">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nisi
+      modi unde adipisci id at dignissimos veniam, consequuntur natus amet ullam
+      quidem molestiae! Necessitatibus, corporis dicta possimus ipsa illum
+      dolores. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      Inventore quos fuga beatae necessitatibus temporibus facere repudiandae
+      maxime iste ratione. Molestiae, exercitationem eos. Facilis necessitatibus
+      officiis recusandae accusantium. Omnis iusto commodi porro quas fuga nisi
+      esse ipsa in alias nihil, asperiores reiciendis, eius obcaecati
+      perspiciatis sint quasi, perferendis natus provident quia!
+    </p>
+
+    <p class="outline">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, assumenda
+      libero. Explicabo porro corporis quod aliquam aut ullam, eos, eius nihil
+      officiis fugit quos ratione perspiciatis. Quisquam voluptas totam et illum
+      maxime magnam sit. Natus quo, vero, exercitationem incidunt nihil ex
+      placeat eos dolorum velit dolore itaque inventore impedit aliquam
+      accusantium ad? Ut quidem, assumenda recusandae asperiores ex illo
+      cupiditate atque unde ea nobis veritatis dolor error ducimus hic numquam
+      non neque officia repudiandae tempora iste explicabo expedita quae
+      doloremque dolorem? Nobis, nostrum tempora quisquam ipsam rerum voluptates
+      voluptas animi natus? Corporis ea nesciunt nemo fuga, eos laudantium id
+      assumenda adipisci quas quae, error laborum asperiores praesentium
+      doloremque libero distinctio labore incidunt maiores ut. Enim quos rem
+      assumenda molestias explicabo vitae laborum quis iusto expedita accusamus
+      dignissimos distinctio, veritatis atque. Fuga tempora repudiandae sit
+      mollitia ab repellat alias, ipsam voluptatum deserunt non aliquid
+      quibusdam quos veritatis, velit, vel molestias eveniet numquam iure
+      inventore! Autem vitae voluptates assumenda fugit veniam accusamus sequi
+      corporis nam ab suscipit quam nihil incidunt voluptate dolores quidem
+      placeat, ratione asperiores similique quibusdam minima quaerat quos. Illum
+      impedit maiores asperiores beatae numquam voluptates nesciunt provident
+      voluptas rerum non. Doloribus praesentium cumque facilis iure pariatur
+      voluptatibus ipsa in quod. Rerum suscipit quaerat iusto, nostrum obcaecati
+      numquam, delectus excepturi praesentium cumque necessitatibus eos deleniti
+      architecto incidunt voluptatum, aliquid corporis reprehenderit quam culpa
+      accusamus illo animi voluptatem. Veniam soluta et commodi ducimus ratione
+      eveniet maxime dicta iusto? Perferendis at quo magnam vitae ea voluptatem
+      saepe aspernatur. Minus quaerat reprehenderit perferendis voluptate
+      deleniti error eveniet cum, accusamus nesciunt sunt distinctio odit, ex
+      facilis modi animi quod nulla ratione ipsum eos ullam rem cupiditate
+      alias? Cumque, voluptatibus aliquam voluptate provident exercitationem,
+      numquam eos temporibus nesciunt expedita dolores obcaecati deleniti dolore
+      ipsa reprehenderit quos enim magni impedit molestiae! Enim quisquam
+      voluptate rerum aperiam.bvg
+    </p>
+  </body>
+</html>
