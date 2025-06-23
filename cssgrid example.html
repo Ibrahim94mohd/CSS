@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Grid Example</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns:  auto repeat(2, 1fr) ;
+      grid-template-rows: auto auto auto;
+      gap: 10px;
+      padding: 20px;
+    }
+    .box {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 18px;
+      border-radius: 8px;
+    }
+    .el
+    {
+      grid-column:auto;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="container">
+    <div class="box el">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <div class="box">Box 4</div>
+    <div class="box">Box 5</div>
+    <div class="box">Box 6</div>
+        <div class="box">Box 4</div>
+    <div class="box">Box 5</div>
+    <div class="box">Box 6</div>
+  </div>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-rows: 1fr 2fr auto;
+      gap: 10px;
+      background-color: lightgray;
+      grid-template-columns: 1fr 2fr auto;
+    }
+    .grid-item {
+      background-color: steelblue;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">Row 1 (100px)</div>
+    <div class="grid-item">Row 2 (200px)</div>
+    <div class="grid-item">Row 3 (Auto)</div>
+  </div>
+</body>
+</html> -->

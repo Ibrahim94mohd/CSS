@@ -1,0 +1,22 @@
+
+body{
+  background-color: black;
+}
+.motivation{
+  border: 5px white solid;
+  width: 100%;
+}
+div{
+ width: 50%;
+ margin-left: 25%;
+  font-family: "Leckerli One", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+text-transform: uppercase;
+color: white;
+}
+p{
+  font-family: 'Courier New', Courier, monospace;
+  color: white\;
+}
